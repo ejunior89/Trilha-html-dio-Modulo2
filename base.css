@@ -1,0 +1,120 @@
+/* margens e padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* corpo do site */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* contêiner principal */
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    min-height: 100vh;
+    display: flex;
+}
+
+/* seção principal */
+.main {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+/*  menu lateral */
+.menu {
+    background-color: aqua;
+    padding: 20px;
+    flex: 0 0 20%;
+    display: flex;
+    flex-flow: column;
+    font-size: 20px;
+}
+
+/* cabeçalho */
+.header {
+    background-color: rgb(5, 108, 108);
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* conteúdo */
+.content {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content p {
+    margin: 10px 0;
+}
+
+.cta-button {
+    background-color: rgb(5, 108, 108);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0;
+    align-self: center;
+}
+
+.horarios-table {
+    max-width: 100%;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: 20px 0;
+}
+
+/* rodapé */
+.footer {
+    background-color: rgb(99, 56, 240);
+    color: white; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: auto;
+}
+
+/*redes sociais */
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 10px;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-image {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
